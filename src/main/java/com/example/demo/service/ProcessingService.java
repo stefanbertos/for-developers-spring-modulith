@@ -11,5 +11,7 @@ public class ProcessingService {
     @ApplicationModuleListener
     void onLegacyEvent(LegacyEvent legacyEvent) {
         log.info("Processing legacy event: {}", legacyEvent);
+
+        //throw new RuntimeException("Something went wrong");
     }
 }
