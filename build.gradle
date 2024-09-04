@@ -32,6 +32,9 @@ dependencies {
 
 	implementation 'org.springframework.modulith:spring-modulith-starter-core'
 	implementation 'org.springframework.modulith:spring-modulith-starter-mongodb'
+	implementation 'org.springframework.modulith:spring-modulith-events-amqp'
+
+	implementation 'com.solace.spring.boot:solace-java-spring-boot-starter:5.2.0'
 
 	implementation 'joda-time:joda-time:2.12.7'
 
